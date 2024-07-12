@@ -88,6 +88,7 @@ export function makeWrapper(
 
         if (closestScope) {
           manager.dataSchema.switchTo(closestScope.id);
+          // test
         } else {
           throw new Error('程序错误');
         }
